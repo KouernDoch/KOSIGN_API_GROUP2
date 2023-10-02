@@ -14,7 +14,7 @@ public class GetController {
     @GetMapping("/testdata")
     public ResponseEntity<?> GetData(){
         return ResponseEntity.ok(new ResponsefromApi<>(
-              "Hello" ,
+              "" ,
               LocalDateTime.now(),
                 true
         ));
